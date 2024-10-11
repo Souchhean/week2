@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Start With HTML Table</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid black ;
+    }
+</style>
+<body>
+    <h2>List User</h2>
+    <table>
+        <caption>List All Users</caption>
+        <colgroup>
+            <col span="5" style="background-color: rgb(212, 227, 255);">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Phone</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Visal</td>
+                <td>Male</td>
+                <td>010203040</td>
+                <td>
+                    <button>View</button>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dara</td>
+                <td>Male</td>
+                <td>0103434340</td>
+                <td>
+                    <button>View</button>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
